@@ -1,0 +1,140 @@
+#articulos, #celulares, #perifericos {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    justify-content: center;
+        
+}
+
+article{
+    margin: 0 30px 0 30px;
+}
+#articulos {
+    margin-top: 130px;
+    background-image: url(https://img.freepik.com/free-vector/grey-technology-background_1035-9343.jpg);
+    padding-bottom: 50px;
+    
+    
+
+}
+
+#celulares{
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/abstract_blue_technical_background_311541.jpg);
+}
+
+#perifericos{
+    background-image: url(https://thumbs.dreamstime.com/b/grey-geometric-technology-background-gear-shape-vector-abstract-graphic-design-abs-124020695.jpg);
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    background-color: white;
+    margin: 0px 0 10px 0; 
+    
+       
+}
+
+h6{
+    font-size: 1em;
+    font-weight: bold;
+    color: blue;
+
+}
+
+
+h3 {
+    font-size: 2em;
+    color: blue;
+    margin-top: 20px;
+    background-color: aliceblue;
+    width: 100%;
+    padding-left: 20px;
+    
+    
+}
+
+h4{
+    
+    text-align: center;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 200px;
+    justify-content: center;
+    margin: auto;
+    
+ }
+
+
+
+#sesion{
+    font-size: 1.5em;
+    margin-right: -100px;
+}
+
+#articulos img, #perifericos img {
+    height: 200px;}
+
+.articulos{ 
+    max-width: 200px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    
+        
+}
+
+#articulos .contenedor {
+    margin: 50px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+#celulares img {
+    height: 200px;}
+
+   
+.celulares, .gaming{ 
+    max-width: 205px;
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+        
+}
+
+.gaming{
+    background-color: transparent;
+    border: none;
+}
+
+
+
+#celulares .contenedor1, #perifericos .contenedor2 {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   
+
+}
+
+.gaming, .celulares, .articulos{
+    margin: 0 30px 0 30px;
+
+
+}
+
+@media(max-width:666px){
+    #articulos{
+        margin-top: 220px;
+                
+    }
+
+}
+

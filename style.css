@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+header .encabezado,
+footer {
+    min-height: 100px;
+    background-image: url(fondo.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1,
+footer h1 {
+    padding: 20px 10px 0 10px;
+    color: white;
+    font-size: 3em;
+}
+
+header p {
+    padding: 30px 10px 0 0;
+    font-size: 2em;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+header img {
+    max-width: 100px;
+}
+
+#sesion {
+    font-size: 1.5em;
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+footer p {
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px 20px 10px;
+}
+
+h5 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#terminos,
+#locales {
+    margin-top: -30px;
+}
+
+
+
+footer img {
+    width: 100px;
+}
+
+div {
+    text-align: center;
+}
+
+section {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax {
+    background: white fixed no-repeat 50% 50%;
+    background-size: cover;
+}
